@@ -1,0 +1,109 @@
+:root {
+    /* Цвета заголовков Переменные, объявленные здесь, доступны во всем документе.*/
+    --heading-color: #0026ff;
+    --heading-font-family: 'Arial', sans-serif;
+    --heading-font-size-large: 2.5rem;
+    --heading-font-size-medium: 2rem;
+    --heading-font-size-small: 1.5rem;
+}
+
+/* Стили для заголовков */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+    font-family: var(--heading-font-family);
+}
+
+h1 {
+    font-size: var(--heading-font-size-large);
+}
+
+h2 {
+    font-size: var(--heading-font-size-medium);
+}
+
+h3 {
+    font-size: var(--heading-font-size-small);
+}
+
+/* Пользовательские стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.c-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.c-paragraph {
+    line-height: 1.5;
+}
+
+.unique-container {
+    display: flex;
+    gap: 20px;
+}
+
+.unique-container .c-nav__item {
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #185612;
+}
+
+.c-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.c-table th,
+.c-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.c-table th {
+    background-color: #007BFF;
+    color: white;
+    font-weight: bold;
+}
+
+.c-table tr:hover td {
+    background-color: #f1f1f1;
+}
+
+main {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 800px;
+    margin-left: 300px;
+    padding: 20px;
+    width: calc(100% - 300px);
+    box-sizing: border-box;
+}
+
+aside.c-card {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    margin: 20px;
+    z-index: 1000;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px 0;
+}

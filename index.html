@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Фреймворки</title>
+    <!-- Подключение Blaze UI -->
+    <link rel="stylesheet" href="https://unpkg.com/@blaze/css@x.x.x/dist/blaze/blaze.css">
+    <!-- Подключение пользовательских стилей -->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/atoms-main/src/scss/blaze.scss">
+</head>
+
+<body>
+    <!-- Навигационное меню -->
+    <nav class="c-nav c-nav--inline c-nav--high">
+        <div class="c-container unique-container">
+            <a class="c-nav__item" href="index.html">Главная</a>
+            <a class="c-nav__item" href="about.html">О фреймворках</a>
+            <a class="c-nav__item" href="angular.html">AngularJS</a>
+            <a class="c-nav__item" href="react.html">React Native</a>
+            <a class="c-nav__item" href="svelte.html">Svelte</a>
+            <a class="c-nav__item" href="vue.html">Vue.js</a>
+            <a class="c-nav__item" href="blazeui.html">Blaze Ui</a>
+            <a class="c-nav__item" href="contact.html">Контакты</a>
+        </div>
+    </nav>
+
+    <!-- Основной контент -->
+    <div class="c-container">
+        <!--<div class="o-grid">-->
+        <!-- Боковое меню -->
+        <!--<div class="o-grid__cell o-grid__cell--width-25">-->
+        <aside class="c-card">
+            <div class="c-card__body">
+                <ul class="c-list">
+                    <li class="c-list__item"><a href="#what-is-js-frameworks">Что такое JS фреймворки?</a></li>
+                    <li class="c-list__item"><a href="#benefits">Преимущества</a></li>
+                    <li class="c-list__item"><a href="#popular-frameworks">Популярные фреймворки</a></li>
+                    <li class="c-list__item"><a href="#comparison">Сравнение фреймворков</a></li>
+                    <li class="c-list__item"><a href="#video-js">Видео о JS фреймворках</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Основной контент -->
+    <!--<div class="o-grid__cell o-grid__cell--width-75">-->
+    <main>
+        <h1 class="c-heading u-super">Добро пожаловать на сайт о JavaScript фреймворках</h1>
+        <p class="c-paragraph">
+            JavaScript фреймворки — это мощные инструменты для создания современных веб-приложений. <br>
+            Здесь вы найдете информацию о самых популярных фреймворках, их возможностях и преимуществах.
+        </p>
+
+        <img src="assets/images/js_Frameworks.png" alt="JS Frameworks" class="c-image">
+
+        <!-- Раздел: Что такое JS фреймворки -->
+        <h2 id="what-is-js-frameworks" class="c-heading u-xlarge">
+            <a href="about.html" style="text-decoration: none; color: inherit;">Что такое JS фреймворки?</a>
+        </h2>
+        <p class="c-paragraph">
+            JavaScript фреймворки — это библиотеки, которые предоставляют готовые решения для создания
+            веб-приложений. Они упрощают разработку, предоставляя структуру и набор инструментов для работы
+            с DOM, анимацией, маршрутизацией и другими задачами. <br>
+            Фреймворк JavaScript – это заранее написанная коллекция библиотек, инструментов и соглашений,
+            которая предоставляет организованный подход к созданию веб-приложений. <br>
+            Он предлагает основу и руководство разработчикам для оптимизации любого процесса разработки
+            программного обеспечения и эффективного выполнения общих задач.
+        </p>
+        <!-- Раздел: Преимущества -->
+        <h2 id="benefits" class="c-heading u-xlarge">Преимущества</h2>
+        <p class="c-paragraph">
+            Использование фреймворков позволяет:
+        </p>
+        <ul class="c-list">
+            <li class="c-list__item">Ускорить разработку.</li>
+            <li class="c-list__item">Упростить поддержку кода.</li>
+            <li class="c-list__item">Использовать готовые решения для типичных задач.</li>
+        </ul>
+
+        <!-- Раздел: Популярные фреймворки -->
+        <h2 id="popular-frameworks" class="c-heading u-xlarge">Популярные фреймворки</h2>
+        <p class="c-paragraph">
+            Среди популярных фреймворков можно выделить:
+        </p>
+        <ul class="c-list">
+            <li class="c-list__item">
+                <a href="react.html"><strong>React</strong></a> — библиотека для создания пользовательских
+                интерфейсов.
+            </li>
+            <li class="c-list__item">
+                <a href="angular.html"><strong>Angular</strong></a> — полноценный фреймворк для разработки
+                SPA.
+            </li>
+            <li class="c-list__item">
+                <a href="vue.html"><strong>Vue.js</strong></a> — прогрессивный фреймворк для создания
+                интерфейсов.
+            </li>
+            <li class="c-list__item">
+                <a href="svelte.html"><strong>Svelte</strong></a> — новый подход к созданию веб-приложений.
+            </li>
+        </ul>
+
+        <!-- Раздел: Сравнение фреймворков -->
+        <h2 id="comparison" class="c-heading u-xlarge">Сравнение JavaScript фреймворков</h2>
+        <div class="table-container">
+            <table class="c-table">
+                <thead>
+                    <tr>
+                        <th>Фреймворк</th>
+                        <th>Простота использования</th>
+                        <th>Популярность</th>
+                        <th>Гибкость</th>
+                        <th>Поддержка</th>
+                        <th>Рейтинг</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>React Native</td>
+                        <td>Умеренно сложный</td>
+                        <td>Высокая</td>
+                        <td>Высокая</td>
+                        <td>Высокая</td>
+                        <td>8/10</td>
+                    </tr>
+                    <tr>
+                        <td>AngularJS</td>
+                        <td>Сложный</td>
+                        <td>Средняя</td>
+                        <td>Низкая</td>
+                        <td>Низкая</td>
+                        <td>4/10</td>
+                    </tr>
+                    <tr>
+                        <td>Vue.js</td>
+                        <td>Простой</td>
+                        <td>Высокая</td>
+                        <td>Высокая</td>
+                        <td>Высокая</td>
+                        <td>8/10</td>
+                    </tr>
+                    <tr>
+                        <td>Svelte</td>
+                        <td>Очень простой</td>
+                        <td>Средняя</td>
+                        <td>Высокая</td>
+                        <td>Средняя</td>
+                        <td>7/10</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Видео -->
+        <div id="video-js" class="c-card">
+            <h2>Видео о JS фреймворках</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bQbMWx6YA3U" frameborder="0"
+                allowfullscreen></iframe>
+        </div>
+    </main>
+    </div>
+    </div>
+    </div>
+
+    <!-- Футер -->
+    <footer class="c-footer">
+        <div class="c-container">
+            <p class="c-paragraph">&copy; 2025 JavaScript Фреймворки. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Подключение Blaze UI JS -->
+    <script type="module" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/@blaze/atoms@x.x.x/dist/blaze-atoms/blaze-atoms.js"></script>
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>
